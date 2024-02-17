@@ -104,6 +104,10 @@ if __name__ == '__main__':
         st.header("Input Parameters Need")
         size = st.number_input("Enter disk size:", min_value=1, max_value=8, step=1)
         head = st.number_input("Enter starting head position:", min_value=0, step=1)
+        st.caption('IF13 - Kelompok 2')
+        st.caption('10122905 - Rayhandhika Yusuf')
+        st.caption('10122907 - Vina Lestari')
+        st.caption('10122911 - Tetta Trisky T')
         st.caption('Created At 2023')
 
     colors = {
